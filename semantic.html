@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HTML Semantic Structure | CIS 130</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header>
+  <h1>HTML: Semantic Elements & Webpage Structure</h1>
+  <nav aria-label="Primary navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="editor.html">Using the Code Editor</a></li>
+      <li><a href="semantic.html" aria-current="page">HTML Semantic Structure</a></li>
+      <li><a href="tables-forms.html">HTML Tables & Forms</a></li>
+      <li><a href="css.html">CSS Styling & Layout</a></li>
+      <li><a href="accessibility.html">Accessibility</a></li>
+      <li><a href="validation.html">HTML/CSS Validation</a></li>
+      <li><a href="ethics-legal.html">Ethical & Legal Issues</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="card">
+    <h2>What I learned</h2>
+    <p>
+      Semantic HTML makes a website easier to understand for users and assistive technology.
+      In CIS 130, I practiced using tags like header, nav, main, section, article, and footer
+      to create a clear structure and improve accessibility.
+    </p>
+
+    <article class="card">
+      <h3>YouTube Video</h3>
+      <p>This video explains why semantic elements matter and how they improve structure and accessibility.</p>
+      <div class="video-wrap">
+        <iframe
+          src="https://www.youtube.com/embed/bOUhq46fd5g"
+          title="Semantic HTML Explained"
+          loading="lazy"
+          allowfullscreen></iframe>
+      </div>
+    </article>
+
+    <article class="card">
+      <h3>Article/Blog</h3>
+      <p>
+        This resource explains semantic meaning in HTML and why it matters.
+        <a class="article-link" href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics" target="_blank" rel="noopener noreferrer">
+          Read MDN: Semantics
+        </a>
+      </p>
+    </article>
+  </section>
+</main>
+
+<footer><p>Final Project | CIS 130 Web Design</p></footer>
+</body>
+</html>
